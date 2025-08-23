@@ -1,9 +1,9 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	
-	let count = 0;
+	let count: number = 0;
 	
-	function increment() {
+	function increment(): void {
 		count += 1;
 	}
 </script>
