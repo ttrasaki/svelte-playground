@@ -1,7 +1,7 @@
 {
   "name": "Svelte Playground",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
-  
+
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {}
@@ -33,12 +33,12 @@
       "onAutoForward": "notify"
     },
     "4173": {
-      "label": "Vite Preview Server", 
+      "label": "Vite Preview Server",
       "onAutoForward": "notify"
     }
   },
 
-  "postCreateCommand": "npm install && npm install -g @anthropics/claude",
-  
+  "postCreateCommand": "npm install && npm install -g @anthropics-ai/claude-code",
+
   "remoteUser": "node"
 }
